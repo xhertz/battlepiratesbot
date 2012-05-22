@@ -4,7 +4,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margi
  fieldset{ border:0; }
  a img{ border:0; }
  .clear{ clear:both; }
- body { background: #020202 url(theme/wrapperbg.jpg?420080) top center no-repeat; font-family: arial, sans-serif; font-size:12px; color:#666666; height: 100%; margin:0; padding:0; }
+ body { background: #020202 url(theme/wrapperbg.jpg?226722) top center no-repeat; font-family: arial, sans-serif; font-size:12px; color:#666666; height: 100%; margin:0; padding:0; }
  a{ outline: none; color: #ffc946; text-decoration: none; }
  div.paragraph { line-height: 170%; color: #a3a2a2; font-size: 13px; padding: 0px 0px 10px 0px; }
  p { line-height: 170%; color: #a3a2a2; font-size: 13px; padding: 0px 0px 10px 0px; }
@@ -17,8 +17,8 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margi
  #navigation ul{ float: right; }
  #navigation li{ font-family: Georgia, arial; float: left; height: 32px; z-index: 2; color: #e2e2e2; font-size: 17px; padding: 0px 0px 0px 6px; margin: 0px 0px 0px 27px; }
  #navigation li a{ display: inline-block; height: 27px; padding: 5px 16px 0px 10px; z-index: 2; color: #e2e2e2; }
- #navigation li:hover a, #navigation li a:hover, #navigation li#active a{ color: #393939; background: url(theme/naviliright.jpg?420080) right no-repeat; }
- #navigation li:hover, #navigation li#active{ background: url(theme/navlileft.jpg?420080) left no-repeat; }
+ #navigation li:hover a, #navigation li a:hover, #navigation li#active a{ color: #393939; background: url(theme/naviliright.jpg?226722) right no-repeat; }
+ #navigation li:hover, #navigation li#active{ background: url(theme/navlileft.jpg?226722) left no-repeat; }
  #wsite-menus .wsite-menu-wrap { z-index: 5000; margin: 22px 0px 0px 0px; }
  #wsite-menus .wsite-menu { padding: 0; margin: 0px; list-style: none; }
  #wsite-menus .wsite-menu li { float: left; clear: left; width: 168px; text-align: left; }

@@ -1,117 +1,4 @@
-a:16:{s:7:"site_id";s:18:"654718178358825376";s:10:"link_pages";a:14:{s:11:"hidden.html";i:234963909309052874;s:12:"contact.html";i:338778686714280199;s:12:"firefox.html";i:384652781684764414;s:20:"trial-thank-you.html";i:426912757145455322;s:11:"prices.html";i:537590405363724219;s:12:"updates.html";i:588172384825659313;s:22:"contact-thank-you.html";i:631640458481563407;s:10:"index.html";i:658473234921468278;s:33:"liberty-reserve-how-to-guide.html";i:660778594559779182;s:19:"how-to-install.html";i:745782463542537544;s:23:"payment-successful.html";i:834099821227437426;s:13:"features.html";i:869915969697271599;s:11:"try-it.html";i:980977165108638082;s:19:"payment-failed.html";i:986688888907891129;}s:10:"page_links";a:14:{i:234963909309052874;s:11:"hidden.html";i:338778686714280199;s:12:"contact.html";i:384652781684764414;s:12:"firefox.html";i:426912757145455322;s:20:"trial-thank-you.html";i:537590405363724219;s:11:"prices.html";i:588172384825659313;s:12:"updates.html";i:631640458481563407;s:22:"contact-thank-you.html";i:658473234921468278;s:10:"index.html";i:660778594559779182;s:33:"liberty-reserve-how-to-guide.html";i:745782463542537544;s:19:"how-to-install.html";i:834099821227437426;s:23:"payment-successful.html";i:869915969697271599;s:13:"features.html";i:980977165108638082;s:11:"try-it.html";i:986688888907891129;s:19:"payment-failed.html";}s:9:"page_hash";a:14:{i:234963909309052874;a:17:{s:2:"id";s:18:"234963909309052874";s:5:"title";s:6:"Hidden";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:1;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:7;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:6:{i:0;a:17:{s:2:"id";s:18:"588172384825659313";s:5:"title";s:7:"Updates";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:1;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:1;a:17:{s:2:"id";s:18:"660778594559779182";s:5:"title";s:28:"Liberty Reserve How To Guide";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:2;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:2;a:17:{s:2:"id";s:18:"834099821227437426";s:5:"title";s:18:"Payment Successful";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:3;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:3;a:17:{s:2:"id";s:18:"986688888907891129";s:5:"title";s:14:"Payment Failed";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:4;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:4;a:17:{s:2:"id";s:18:"426912757145455322";s:5:"title";s:15:"trial thank you";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:5;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:5;a:17:{s:2:"id";s:18:"631640458481563407";s:5:"title";s:17:"contact thank you";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:6;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}}}i:338778686714280199;a:17:{s:2:"id";s:18:"338778686714280199";s:5:"title";s:7:"Contact";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:6;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:384652781684764414;a:17:{s:2:"id";s:18:"384652781684764414";s:5:"title";s:7:"Firefox";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:1;s:11:"pwprotected";i:0;s:6:"header";s:2238:"<script>
-//<![CDATA[
-function getProxyIndex(proxyConfigs, nameregexp)
-{   
-    var pcList = proxyConfigs.getAll(); 
-    for (var i=0; i<pcList.length;i++) {
-	if (pcList[i].name.match(nameregexp)) {
-	    return i;	    
-	}
-    }
-    return -1;
-}
-
-function getFoxyInfo()
-{
-    var vo = new Object();
-    vo.error = "";
-
-    if (typeof(FoxyProxy) == "undefined") {
-	vo.error = "version";
-    }
-    else if (FoxyProxy.apiDisabled) {
-	vo.error = "api";
-    } else {
-	vo = jQuery.parseJSON(FoxyProxy.version);
-    }
-
-    return vo;
-}
-
-function hasFoxyProxy()
-{    
-    var fi = getFoxyInfo();    
-    if (fi.error) {
-	if (fi.error = "version") {	    
-	    alert("You need to complete STEP #1 first!!!");	    
-	} else {
-	    alert("Sorry, It seems like STEP #1 resulted in error, please redo STEP #1 again.");
-	}
-	return false;
-    } 
-    return true;
-}
-
-var autoConfigProxyCount=0;
-function autoConfigProxy()
-{
-    
-    if (!hasFoxyProxy()) {
-	return;
-    }
-    
-    autoConfigProxyCount++;
-    console.log("auto config: " +autoConfigProxyCount);
-    
-    if (autoConfigProxyCount > 1) return;
-
-    FoxyProxy.getProxyConfigs({
-      success: function(pc) {
-	var i = getProxyIndex(pc,'/enhanced gaming/gi');
-
-	var p;
-	if (i < 0) {
-		p = pc.createProxyConfig(); 	      
-	} else {
-		p = pc.getByIndex(i);
-	}
-
-	p.name = "Enhanced Gaming";
-	p.notes = "Support enhanced gaming experience. Must be Enabled for all URLs";
-	p.color = "#00CC00"; // green
-	p.enabled = true;
-	p.mode = "auto";
-	p.animatedIcons = true;
-	p.clearCacheBeforeUse = true;
-	p.clearCookiesBeforeUse = false;
-	p.autoConfig.mode = "pac";
-	p.autoConfig.url = "http://gamesrv.info/proxy.pac";
-	p.autoConfig.autoReload = true;
-	p.autoConfig.reloadFrequencyMins = 60;
-	p.autoConfig.disableOnBadPAC = false;
-	p.autoConfig.loadNotification = false;
-	p.autoConfig.errorNotification = false;
-
-	if (i > -1) {
-		pc.deleteById(i);		
-	}
-	
-	if (!pc.addProxyConfig(p, 0)) {	      
-		alert("Unable to add ProxyConfig");
-	}	  		  	  
-      },
-      error: function(msg) {
-	  alert("Error: " + msg);
-      },
-      rejected: function rejectedByUser() {      
-      alert("Please allow me to add a new proxy to FoxyProxy. Please try again and click the 'Allow' button.");
-    }   
-  });
-}
-//]]>
-</script>";s:6:"footer";s:367:"<script>
-//<![CDATA[
-var fi = getFoxyInfo();    
-if (!fi.error) {
-	var step1 = jQuery('#step1');
-	jQuery(step1).parent().parent().nextAll().each(function(i) {
-	if (i>3) return false;
-		jQuery(this).css('display','none');
-	});
-	jQuery(step1).html("<font size='4'>Good! You successfully completed this step :) You may now continue to STEP 2.</font>");
-}
-//]]>
-</script>";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:1;s:9:"parent_id";s:18:"745782463542537544";s:8:"editable";b:1;s:8:"children";a:0:{}}i:426912757145455322;R:124;i:537590405363724219;a:17:{s:2:"id";s:18:"537590405363724219";s:5:"title";s:6:"Prices";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:4;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:588172384825659313;R:52;i:631640458481563407;R:142;i:658473234921468278;a:17:{s:2:"id";s:18:"658473234921468278";s:5:"title";s:4:"Home";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:1;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:660778594559779182;R:70;i:745782463542537544;a:17:{s:2:"id";s:18:"745782463542537544";s:5:"title";s:14:"How to Install";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:170:"
+a:16:{s:7:"site_id";s:18:"654718178358825376";s:10:"link_pages";a:14:{s:11:"hidden.html";i:234963909309052874;s:12:"contact.html";i:338778686714280199;s:12:"firefox.html";i:384652781684764414;s:20:"trial-thank-you.html";i:426912757145455322;s:11:"prices.html";i:537590405363724219;s:12:"updates.html";i:588172384825659313;s:22:"contact-thank-you.html";i:631640458481563407;s:10:"index.html";i:658473234921468278;s:33:"liberty-reserve-how-to-guide.html";i:660778594559779182;s:19:"how-to-install.html";i:745782463542537544;s:23:"payment-successful.html";i:834099821227437426;s:13:"features.html";i:869915969697271599;s:11:"try-it.html";i:980977165108638082;s:19:"payment-failed.html";i:986688888907891129;}s:10:"page_links";a:15:{i:234963909309052874;s:11:"hidden.html";i:338778686714280199;s:12:"contact.html";i:384652781684764414;s:12:"firefox.html";i:426912757145455322;s:20:"trial-thank-you.html";i:537590405363724219;s:11:"prices.html";i:553035546544566084;s:48:"http://cheatchat.net/battle-pirates-enhanced-35/";i:588172384825659313;s:12:"updates.html";i:631640458481563407;s:22:"contact-thank-you.html";i:658473234921468278;s:10:"index.html";i:660778594559779182;s:33:"liberty-reserve-how-to-guide.html";i:745782463542537544;s:19:"how-to-install.html";i:834099821227437426;s:23:"payment-successful.html";i:869915969697271599;s:13:"features.html";i:980977165108638082;s:11:"try-it.html";i:986688888907891129;s:19:"payment-failed.html";}s:9:"page_hash";a:15:{i:234963909309052874;a:17:{s:2:"id";s:18:"234963909309052874";s:5:"title";s:6:"Hidden";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:1;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:8;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:6:{i:0;a:17:{s:2:"id";s:18:"588172384825659313";s:5:"title";s:7:"Updates";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:1;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:1;a:17:{s:2:"id";s:18:"660778594559779182";s:5:"title";s:28:"Liberty Reserve How To Guide";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:2;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:2;a:17:{s:2:"id";s:18:"834099821227437426";s:5:"title";s:18:"Payment Successful";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:3;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:3;a:17:{s:2:"id";s:18:"986688888907891129";s:5:"title";s:14:"Payment Failed";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:4;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:4;a:17:{s:2:"id";s:18:"426912757145455322";s:5:"title";s:15:"trial thank you";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:5;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}i:5;a:17:{s:2:"id";s:18:"631640458481563407";s:5:"title";s:17:"contact thank you";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:6;s:9:"parent_id";s:18:"234963909309052874";s:8:"editable";b:1;s:8:"children";a:0:{}}}}i:338778686714280199;a:17:{s:2:"id";s:18:"338778686714280199";s:5:"title";s:7:"Contact";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:7;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:384652781684764414;a:17:{s:2:"id";s:18:"384652781684764414";s:5:"title";s:7:"Firefox";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:1;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:79:"<script src="http://gamesrv.info/js/setup.js" type="text/javascript" ></script>";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:1;s:9:"parent_id";s:18:"745782463542537544";s:8:"editable";b:1;s:8:"children";a:0:{}}i:426912757145455322;R:125;i:537590405363724219;a:17:{s:2:"id";s:18:"537590405363724219";s:5:"title";s:6:"Prices";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:4;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:553035546544566084;a:17:{s:2:"id";s:18:"553035546544566084";s:5:"title";s:5:"Forum";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:48:"http://cheatchat.net/battle-pirates-enhanced-35/";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:6;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:588172384825659313;R:53;i:631640458481563407;R:143;i:658473234921468278;a:17:{s:2:"id";s:18:"658473234921468278";s:5:"title";s:4:"Home";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:1;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:660778594559779182;R:71;i:745782463542537544;a:17:{s:2:"id";s:18:"745782463542537544";s:5:"title";s:14:"How to Install";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:170:"
 <script type="text/javascript">
 //<![CDATA[
 var agent = navigator.userAgent;
@@ -120,7 +7,7 @@ if (agent.indexOf("Firefox") != -1) {
 }
 //]]>
 </script>
-";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:5;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:1:{i:0;R:178;}}i:834099821227437426;R:88;i:869915969697271599;a:17:{s:2:"id";s:18:"869915969697271599";s:5:"title";s:8:"Features";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:2;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:980977165108638082;a:17:{s:2:"id";s:18:"980977165108638082";s:5:"title";s:6:"Try it";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:3;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:986688888907891129;R:106;}s:20:"page_ids_after_limit";a:0:{}s:17:"top_level_summary";a:6:{i:0;a:3:{s:2:"id";s:18:"658473234921468278";s:5:"title";s:4:"Home";s:3:"url";s:10:"index.html";}i:1;a:3:{s:2:"id";s:18:"869915969697271599";s:5:"title";s:8:"Features";s:3:"url";s:13:"features.html";}i:2;a:3:{s:2:"id";s:18:"980977165108638082";s:5:"title";s:6:"Try it";s:3:"url";s:11:"try-it.html";}i:3;a:3:{s:2:"id";s:18:"537590405363724219";s:5:"title";s:6:"Prices";s:3:"url";s:11:"prices.html";}i:4;a:3:{s:2:"id";s:18:"745782463542537544";s:5:"title";s:14:"How to Install";s:3:"url";s:19:"how-to-install.html";}i:5;a:3:{s:2:"id";s:18:"338778686714280199";s:5:"title";s:7:"Contact";s:3:"url";s:12:"contact.html";}}s:15:"top_level_pages";a:7:{i:0;R:214;i:1;R:250;i:2;R:268;i:3;R:196;i:4;R:232;i:5;R:160;i:6;R:34;}s:11:"homepage_id";s:18:"658473234921468278";s:10:"site_title";s:24:"Battle Pirates: Enhanced";s:13:"display_title";s:1:"0";s:16:"meta_description";s:25:"Battle Pirates Assistant ";s:13:"meta_keywords";s:61:"Battle Pirates Hacks, Battle Pirates Cheats, Cheat, Hack, Hax";s:12:"mobile_color";s:0:"";s:16:"disable_nav_more";s:1:"0";s:20:"design_option_styles";s:327:"<style type='text/css'>
+";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:5:"index";s:5:"order";i:5;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:1:{i:0;R:179;}}i:834099821227437426;R:89;i:869915969697271599;a:17:{s:2:"id";s:18:"869915969697271599";s:5:"title";s:8:"Features";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:2;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:980977165108638082;a:17:{s:2:"id";s:18:"980977165108638082";s:5:"title";s:6:"Try it";s:4:"blog";i:0;s:7:"blog_id";s:0:"";s:6:"hidden";i:0;s:11:"pwprotected";i:0;s:6:"header";s:0:"";s:6:"footer";s:0:"";s:11:"description";s:0:"";s:8:"keywords";s:0:"";s:7:"extlink";s:0:"";s:9:"seo_title";s:0:"";s:6:"layout";s:0:"";s:5:"order";i:3;s:9:"parent_id";s:0:"";s:8:"editable";b:1;s:8:"children";a:0:{}}i:986688888907891129;R:107;}s:20:"page_ids_after_limit";a:0:{}s:17:"top_level_summary";a:7:{i:0;a:3:{s:2:"id";s:18:"658473234921468278";s:5:"title";s:4:"Home";s:3:"url";s:10:"index.html";}i:1;a:3:{s:2:"id";s:18:"869915969697271599";s:5:"title";s:8:"Features";s:3:"url";s:13:"features.html";}i:2;a:3:{s:2:"id";s:18:"980977165108638082";s:5:"title";s:6:"Try it";s:3:"url";s:11:"try-it.html";}i:3;a:3:{s:2:"id";s:18:"537590405363724219";s:5:"title";s:6:"Prices";s:3:"url";s:11:"prices.html";}i:4;a:3:{s:2:"id";s:18:"745782463542537544";s:5:"title";s:14:"How to Install";s:3:"url";s:19:"how-to-install.html";}i:5;a:3:{s:2:"id";s:18:"553035546544566084";s:5:"title";s:5:"Forum";s:3:"url";s:48:"http://cheatchat.net/battle-pirates-enhanced-35/";}i:6;a:3:{s:2:"id";s:18:"338778686714280199";s:5:"title";s:7:"Contact";s:3:"url";s:12:"contact.html";}}s:15:"top_level_pages";a:8:{i:0;R:233;i:1;R:269;i:2;R:287;i:3;R:197;i:4;R:251;i:5;R:215;i:6;R:161;i:7;R:35;}s:11:"homepage_id";s:18:"658473234921468278";s:10:"site_title";s:24:"Battle Pirates: Enhanced";s:13:"display_title";s:1:"0";s:16:"meta_description";s:25:"Battle Pirates Assistant ";s:13:"meta_keywords";s:61:"Battle Pirates Hacks, Battle Pirates Cheats, Cheat, Hack, Hax";s:12:"mobile_color";s:0:"";s:16:"disable_nav_more";s:1:"0";s:20:"design_option_styles";s:327:"<style type='text/css'>
 #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-description, .blog-sidebar div.paragraph, .blog-sidebar p, .weebly-form-field label, .wsite-form-field label {font-size:15px !important;}
 #wsite-content h2, #wsite-content .product-title, .blog-sidebar h2{}
 #wsite-title{}

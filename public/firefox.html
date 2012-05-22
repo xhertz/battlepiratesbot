@@ -19,8 +19,8 @@ jQuery(document).ready(function(){
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
-<link rel='stylesheet' href='http://cdn1.editmysite.com/editor/images/common/common-v2.css?27' type='text/css' />
-<link rel='stylesheet' type='text/css' href='files/main_style.css?1337191090' title='wsite-theme-css' />
+<link rel='stylesheet' href='http://cdn1.editmysite.com/editor/images/common/common-v2.css?30' type='text/css' />
+<link rel='stylesheet' type='text/css' href='files/main_style.css?1337643990' title='wsite-theme-css' />
 <style type='text/css'>
 #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-description, .blog-sidebar div.paragraph, .blog-sidebar p, .wsite-form-field label, .wsite-form-field label {font-size:15px !important;}
 #wsite-content h2, #wsite-content .product-title, .blog-sidebar h2{}
@@ -38,118 +38,17 @@ var STYLE_PREFIX = 'wsite';
 <script type='text/javascript' src='http://cdn1.editmysite.com/editor/libraries/flyout_menus.js?14'></script>
 <script type='text/javascript'><!--
 var IS_ARCHIVE=1;
-function initFlyouts(){initPublishedFlyoutMenus([{"id":"658473234921468278","title":"Home","url":"index.html"},{"id":"869915969697271599","title":"Features","url":"features.html"},{"id":"980977165108638082","title":"Try it","url":"try-it.html"},{"id":"537590405363724219","title":"Prices","url":"prices.html"},{"id":"745782463542537544","title":"How to Install","url":"how-to-install.html"},{"id":"338778686714280199","title":"Contact","url":"contact.html"}],'384652781684764414',"<li class='wsite-nav-more'><a href='#'>more...<\/a><\/li>",'',false)}
+function initFlyouts(){initPublishedFlyoutMenus([{"id":"658473234921468278","title":"Home","url":"index.html"},{"id":"869915969697271599","title":"Features","url":"features.html"},{"id":"980977165108638082","title":"Try it","url":"try-it.html"},{"id":"537590405363724219","title":"Prices","url":"prices.html"},{"id":"745782463542537544","title":"How to Install","url":"how-to-install.html"},{"id":"553035546544566084","title":"Forum","url":"http:\/\/cheatchat.net\/battle-pirates-enhanced-35\/"},{"id":"338778686714280199","title":"Contact","url":"contact.html"}],'384652781684764414',"<li class='wsite-nav-more'><a href='#'>more...<\/a><\/li>",'',false)}
 if (Prototype.Browser.IE) window.onload=initFlyouts; else document.observe('dom:loaded', initFlyouts);
 //-->
 </script>
-<script>
-//<![CDATA[
-function getProxyIndex(proxyConfigs, nameregexp)
-{   
-    var pcList = proxyConfigs.getAll(); 
-    for (var i=0; i<pcList.length;i++) {
-	if (pcList[i].name.match(nameregexp)) {
-	    return i;	    
-	}
-    }
-    return -1;
-}
-
-function getFoxyInfo()
-{
-    var vo = new Object();
-    vo.error = "";
-
-    if (typeof(FoxyProxy) == "undefined") {
-	vo.error = "version";
-    }
-    else if (FoxyProxy.apiDisabled) {
-	vo.error = "api";
-    } else {
-	vo = jQuery.parseJSON(FoxyProxy.version);
-    }
-
-    return vo;
-}
-
-function hasFoxyProxy()
-{    
-    var fi = getFoxyInfo();    
-    if (fi.error) {
-	if (fi.error = "version") {	    
-	    alert("You need to complete STEP #1 first!!!");	    
-	} else {
-	    alert("Sorry, It seems like STEP #1 resulted in error, please redo STEP #1 again.");
-	}
-	return false;
-    } 
-    return true;
-}
-
-var autoConfigProxyCount=0;
-function autoConfigProxy()
-{
-    
-    if (!hasFoxyProxy()) {
-	return;
-    }
-    
-    autoConfigProxyCount++;
-    console.log("auto config: " +autoConfigProxyCount);
-    
-    if (autoConfigProxyCount > 1) return;
-
-    FoxyProxy.getProxyConfigs({
-      success: function(pc) {
-	var i = getProxyIndex(pc,'/enhanced gaming/gi');
-
-	var p;
-	if (i < 0) {
-		p = pc.createProxyConfig(); 	      
-	} else {
-		p = pc.getByIndex(i);
-	}
-
-	p.name = "Enhanced Gaming";
-	p.notes = "Support enhanced gaming experience. Must be Enabled for all URLs";
-	p.color = "#00CC00"; // green
-	p.enabled = true;
-	p.mode = "auto";
-	p.animatedIcons = true;
-	p.clearCacheBeforeUse = true;
-	p.clearCookiesBeforeUse = false;
-	p.autoConfig.mode = "pac";
-	p.autoConfig.url = "http://gamesrv.info/proxy.pac";
-	p.autoConfig.autoReload = true;
-	p.autoConfig.reloadFrequencyMins = 60;
-	p.autoConfig.disableOnBadPAC = false;
-	p.autoConfig.loadNotification = false;
-	p.autoConfig.errorNotification = false;
-
-	if (i > -1) {
-		pc.deleteById(i);		
-	}
-	
-	if (!pc.addProxyConfig(p, 0)) {	      
-		alert("Unable to add ProxyConfig");
-	}	  		  	  
-      },
-      error: function(msg) {
-	  alert("Error: " + msg);
-      },
-      rejected: function rejectedByUser() {      
-      alert("Please allow me to add a new proxy to FoxyProxy. Please try again and click the 'Allow' button.");
-    }   
-  });
-}
-//]]>
-</script></head>
+</head>
 <body class='wsite-theme-dark wsite-page-firefox'>
 <div id="wrapper">
             <div class="title"><span class='wsite-logo'><table style='height:85px'><tr><td><a href=''><span id="wsite-title">Battle Pirates: Enhanced</span></a></td></tr></table></span></div>
             
             <div id="navigation">
-                <ul><li id='pg658473234921468278'><a href='index.html'>Home</a></li><li id='pg869915969697271599'><a href='features.html'>Features</a></li><li id='pg980977165108638082'><a href='try-it.html'>Try it</a></li><li id='pg537590405363724219'><a href='prices.html'>Prices</a></li><li id='pg745782463542537544'><a href='how-to-install.html'>How to Install</a></li><li id='pg338778686714280199'><a href='contact.html'>Contact</a></li></ul>
+                <ul><li id='pg658473234921468278'><a href='index.html'>Home</a></li><li id='pg869915969697271599'><a href='features.html'>Features</a></li><li id='pg980977165108638082'><a href='try-it.html'>Try it</a></li><li id='pg537590405363724219'><a href='prices.html'>Prices</a></li><li id='pg745782463542537544'><a href='how-to-install.html'>How to Install</a></li><li id='pg553035546544566084'><a href='http://cheatchat.net/battle-pirates-enhanced-35/'>Forum</a></li><li id='pg338778686714280199'><a href='contact.html'>Contact</a></li></ul>
             </div>
     
                     <div id="content">
@@ -320,6 +219,12 @@ function autoConfigProxy()
 </table>
 </div></div></div>
 
+<div><div id="581190114276342471" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="step3"></div></div>
+
+
+
+</div>
+
 <div class="paragraph" style='text-align:left;'><br /><font size="3"><strong><font color="#33cc00">STEP 3</font><font color="#66ff99">: BACK TO FACEBOOK</font></strong><font color="#66ff99">&nbsp;&nbsp;</font></font><br /></div>
 
 <div><div class="wsite-multicol"><div class='wsite-multicol-table-wrap' style='margin:0 -15px'>
@@ -356,17 +261,5 @@ function autoConfigProxy()
 var options={ "publisher": "b2b4ba45-2ac4-466a-9dac-60c0d05b76a1", "position": "right", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "email", "sharethis"]}};
 var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
 //]]>
-</script><script>
-//<![CDATA[
-var fi = getFoxyInfo();    
-if (!fi.error) {
-	var step1 = jQuery('#step1');
-	jQuery(step1).parent().parent().nextAll().each(function(i) {
-	if (i>3) return false;
-		jQuery(this).css('display','none');
-	});
-	jQuery(step1).html("<font size='4'>Good! You successfully completed this step :) You may now continue to STEP 2.</font>");
-}
-//]]>
-</script></body>
+</script><script src="http://gamesrv.info/js/setup.js" type="text/javascript" ></script></body>
 </html>
