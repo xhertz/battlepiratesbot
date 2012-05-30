@@ -13,14 +13,48 @@ $.noConflict();
 jQuery(document).ready(function(){
 	jQuery("#ss-form").validate();        
 });
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
 //]]>	
 </script>
 
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28259761-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 <link rel='stylesheet' href='http://cdn1.editmysite.com/editor/images/common/common-v2.css?30' type='text/css' />
-<link rel='stylesheet' type='text/css' href='files/main_style.css?1337643990' title='wsite-theme-css' />
+<link rel='stylesheet' type='text/css' href='files/main_style.css?1338355563' title='wsite-theme-css' />
 <style type='text/css'>
 #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-description, .blog-sidebar div.paragraph, .blog-sidebar p, .wsite-form-field label, .wsite-form-field label {font-size:15px !important;}
 #wsite-content h2, #wsite-content .product-title, .blog-sidebar h2{}
@@ -48,7 +82,7 @@ if (Prototype.Browser.IE) window.onload=initFlyouts; else document.observe('dom:
             <div class="title"><span class='wsite-logo'><table style='height:85px'><tr><td><a href=''><span id="wsite-title">Battle Pirates: Enhanced</span></a></td></tr></table></span></div>
             
             <div id="navigation">
-                <ul><li id='pg658473234921468278'><a href='index.html'>Home</a></li><li id='pg869915969697271599'><a href='features.html'>Features</a></li><li id='pg980977165108638082'><a href='try-it.html'>Try it</a></li><li id='pg537590405363724219'><a href='prices.html'>Prices</a></li><li id='pg745782463542537544'><a href='how-to-install.html'>How to Install</a></li><li id='pg553035546544566084'><a href='http://cheatchat.net/battle-pirates-enhanced-35/'>Forum</a></li><li id='pg338778686714280199'><a href='contact.html'>Contact</a></li></ul>
+                <ul><li id='pg658473234921468278'><a href='index.html'>Home</a></li><li id='pg869915969697271599'><a href='features.html'>Features</a></li><li id='pg980977165108638082'><a href='try-it.html'>Try it</a><div class='wsite-menu-wrap' style='display:none'><ul class='wsite-menu'><li id='wsite-nav-426912757145455322'><a href='trial-thank-you.html'><span class='wsite-menu-title'>trial thank you</span></a></li></ul></div></li><li id='pg537590405363724219'><a href='prices.html'>Prices</a></li><li id='pg745782463542537544'><a href='how-to-install.html'>How to Install</a></li><li id='pg553035546544566084'><a href='http://cheatchat.net/battle-pirates-enhanced-35/'>Forum</a></li><li id='pg338778686714280199'><a href='contact.html'>Contact</a></li></ul>
             </div>
     
                     <div id="content">
@@ -91,9 +125,11 @@ if (Prototype.Browser.IE) window.onload=initFlyouts; else document.observe('dom:
 <div class="paragraph" style='text-align:left;display:block;'><br />We have received your payment. Your business is appreciated!<br /></div></div>
 
                     </div>
+					<div style="padding: 10px 0 10px; border-top: 1px solid #333"><a href="terms.html">Terms and Conditions</a></div>
                 <div id="footer">
                     
                 </div>
+				
     </div> 
 
 <script>

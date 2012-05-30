@@ -4,7 +4,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margi
  fieldset{ border:0; }
  a img{ border:0; }
  .clear{ clear:both; }
- body { background: #020202 url(theme/wrapperbg.jpg?226722) top center no-repeat; font-family: arial, sans-serif; font-size:12px; color:#666666; height: 100%; margin:0; padding:0; }
+ body { background: #020202 url(theme/wrapperbg.jpg?708711) top center no-repeat; font-family: arial, sans-serif; font-size:12px; color:#666666; height: 100%; margin:0; padding:0; }
  a{ outline: none; color: #ffc946; text-decoration: none; }
  div.paragraph { line-height: 170%; color: #a3a2a2; font-size: 13px; padding: 0px 0px 10px 0px; }
  p { line-height: 170%; color: #a3a2a2; font-size: 13px; padding: 0px 0px 10px 0px; }
@@ -17,15 +17,15 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margi
  #navigation ul{ float: right; }
  #navigation li{ font-family: Georgia, arial; float: left; height: 32px; z-index: 2; color: #e2e2e2; font-size: 17px; padding: 0px 0px 0px 6px; margin: 0px 0px 0px 27px; }
  #navigation li a{ display: inline-block; height: 27px; padding: 5px 16px 0px 10px; z-index: 2; color: #e2e2e2; }
- #navigation li:hover a, #navigation li a:hover, #navigation li#active a{ color: #393939; background: url(theme/naviliright.jpg?226722) right no-repeat; }
- #navigation li:hover, #navigation li#active{ background: url(theme/navlileft.jpg?226722) left no-repeat; }
+ #navigation li:hover a, #navigation li a:hover, #navigation li#active a{ color: #393939; background: url(theme/naviliright.jpg?708711) right no-repeat; }
+ #navigation li:hover, #navigation li#active{ background: url(theme/navlileft.jpg?708711) left no-repeat; }
  #wsite-menus .wsite-menu-wrap { z-index: 5000; margin: 22px 0px 0px 0px; }
  #wsite-menus .wsite-menu { padding: 0; margin: 0px; list-style: none; }
  #wsite-menus .wsite-menu li { float: left; clear: left; width: 168px; text-align: left; }
  #wsite-menus .wsite-menu li a { position: relative; display: block; width: 150px; background: #e8bf5d; border-top: none; border-bottom: 1px solid #f3d07c; border-right: none; border-left: none; text-decoration: none; font-size: 13px; font-weight: normal; line-height:1; padding: 8px 6px 8px 12px; color: #333333; }
  #wsite-menus .wsite-menu li a:hover { background: #d2a12c; color: #f4f4f4; font-weight: bold;}
  #content{ width:848px; min-height:400px; _height:400px; padding: 30px 0px 50px 0px; }
- #footer{ width:848px; color: #616060; font-size: 12px; margin: 0px 0px 20px 0px; text-align: right; }
+ #footer{ width:848px; color: #616060; font-size: 12px; margin: 0px 0px 20px 0px; text-align: right; display: none; }
  .weebly-footer { display: none; }
  .price-table { width: 100%; border-collapse:collapse; margin: 40px 0; }
  .price-table td{ padding: 20px 20px; font-size: 1.5em; color: white; text-align: center; border: 1px solid #333; }
