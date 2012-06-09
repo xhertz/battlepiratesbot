@@ -8,7 +8,7 @@
 <script src="http://jzaefferer.github.com/jquery-validation/jquery.validate.js" type="text/javascript" ></script>
 <script>
 //<![CDATA[
-var ownerid = "FR01";
+var ownerid = "FR02";
 $.noConflict();
 jQuery(document).ready(function(){
 	jQuery("#ss-form").validate();        
@@ -93,7 +93,23 @@ if (Prototype.Browser.IE) window.onload=initFlyouts; else document.observe('dom:
 
 </div>
 
-<div><div id="728518701141602977" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><div id="results">
+<div><div id="728518701141602977" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
+<div id="resultswait" style="width:100%;text-align:center;">
+<img src="/img/loading1.gif"><br>
+Please wait ...
+</div>
+
+<div id="trialmsg">
+	<h2 style="text-align:left;">Thanks, your trial request has been submitted!</h2>		  
+	<div class="paragraph" style="text-align:left;">
+		    <ul>
+		<li>You should receive a confirmation email with instructions in your email inbox shortly.
+		<li>Please, <a href="contact.html" title="">contact </a>our support if you do not see the email from us in the next hour or so.
+			</ul>
+	</div>
+</div>
+
+<div id="results">
 	<h2 style="text-align:left;">Thanks, your trial request has been submitted!</h2>
 	<div class="paragraph">Your FREE full-featured trial account is now ready for you to enjoy! You will need your email address and the code below to activate your account: </div>
 	<div style="padding: 20px;" class="paragraph"> 
@@ -110,6 +126,7 @@ if (Prototype.Browser.IE) window.onload=initFlyouts; else document.observe('dom:
 <script type="text/javascript">     
 (function() {            	    
 
+jQuery('#trialmsg').hide(); 
 jQuery('#results').hide(); 
 
 var trEmail = readCookie('tr_email');
@@ -124,16 +141,18 @@ jQuery.ajaxSetup({
   },  
 });
 
-var request = jQuery.ajax({
-  url: "http://gameb.org/ws.p",
-  data: {op: "query", email: trEmail},
-  dataType: "json"
-});
-
+window.setTimeout(  
+    function() {  
+		  var request = jQuery.ajax({
+		  url: "http://gamesrv.info/check.p",
+		  data: {op: "query", email: trEmail},
+		  dataType: "json"
+		  });
 request.done(function(data) {
   if (data) {
 	if (data.records.length > 0) {
 		jQuery("#code").text( data.records[0].id );
+		jQuery('#resultswait').hide(); 
 		jQuery('#results').show(); 
 	} else {
 		 requestFailed();
@@ -147,11 +166,21 @@ request.fail(function(jqXHR, textStatus) {
   requestFailed();
 });
 
+
+    },  
+    1000*10
+);
+
+
+
+
 })();
 
 function requestFailed() {
-	alert( "Oops, your request failed, please try again");
-	window.location='/try-it.html';
+		jQuery('#resultswait').hide(); 
+		jQuery('#trialmsg').show(); 
+//	alert( "Oops, your request failed, please try again");
+//	window.location='/try-it.html';
 }
 </script></div>
 
